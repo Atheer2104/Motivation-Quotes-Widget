@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleDisplayName</key>
+	<string>Motivation Quote</string>
+	<key>LSBundleContainsCoreMLmlmodelc</key>
+	<false/>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-7604332955528357~5687272224</string>
 	<key>LSRequiresIPhoneOS</key>
@@ -162,5 +168,13 @@
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
 	</dict>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
 </dict>
 </plist>
