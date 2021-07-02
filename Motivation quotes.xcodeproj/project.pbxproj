@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1E07CBF82688D8680001C4DB /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E07CBF72688D8680001C4DB /* ColorExt.swift */; };
+		1E2DF94F268C806A00EE04C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2DF94E268C806A00EE04C5 /* AppDelegate.swift */; };
 		1E36AB97267FCFC200DDD757 /* Motivation_quotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36AB96267FCFC200DDD757 /* Motivation_quotesApp.swift */; };
 		1E36AB99267FCFC200DDD757 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36AB98267FCFC200DDD757 /* ContentView.swift */; };
 		1E36AB9B267FCFC300DDD757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E36AB9A267FCFC300DDD757 /* Assets.xcassets */; };
@@ -24,13 +25,17 @@
 		1ECD5D842688E7E6000A6C27 /* MotivationWidgetQuote.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD5D7F2688E7E4000A6C27 /* MotivationWidgetQuote.intentdefinition */; };
 		1ECD5D872688E7E6000A6C27 /* MotivationWidgetQuoteExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1ECD5D782688E7E4000A6C27 /* MotivationWidgetQuoteExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1ECD5D8B2688E806000A6C27 /* MotivationQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36ABA4267FD02500DDD757 /* MotivationQuote.swift */; };
-		1ECD5D8C2688E80A000A6C27 /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E07CBF72688D8680001C4DB /* ColorExt.swift */; };
 		1ECD5D8E2688E83C000A6C27 /* MotivationalQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36ABA6267FD09700DDD757 /* MotivationalQuoteView.swift */; };
 		1ED5CF9C268114C2006B184B /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 1ED5CF9B268114C2006B184B /* quotes.json */; };
 		1EDC1AB72688EC0D005482E7 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 1ED5CF9B268114C2006B184B /* quotes.json */; };
 		1EDC1AB92688FDC2005482E7 /* BackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDC1AB82688FDC2005482E7 /* BackgroundModifier.swift */; };
 		1EDC1ABB2688FE46005482E7 /* BackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDC1AB82688FDC2005482E7 /* BackgroundModifier.swift */; };
-		1EDC1ABD2688FE64005482E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36AB98267FCFC200DDD757 /* ContentView.swift */; };
+		1EF0CAA7268C87CB0043D77E /* BannerAdmobSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF0CAA6268C87CB0043D77E /* BannerAdmobSize.swift */; };
+		1EF0CAA9268C87EB0043D77E /* BannerAdmob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF0CAA8268C87EB0043D77E /* BannerAdmob.swift */; };
+		1EF0CAAE268C89BF0043D77E /* Pods_Motivation_quotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F196E6B4673FE01CE7927681 /* Pods_Motivation_quotes.framework */; };
+		1EF0CAB0268C8A360043D77E /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E07CBF72688D8680001C4DB /* ColorExt.swift */; };
+		5A60946158CE1E3A075C0FB3 /* Pods_MotivationWidgetQuoteExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F9A14E8B13F1BBA957B628 /* Pods_MotivationWidgetQuoteExtension.framework */; };
+		7B0C56F7702C39D03EC269AA /* Pods_Motivation_quotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F196E6B4673FE01CE7927681 /* Pods_Motivation_quotes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +60,24 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1EA358FD268C7C3A00D6FABD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B1F0C1C5AF0851F371FC8AB /* Pods-MotivationWidgetQuoteExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotivationWidgetQuoteExtension.release.xcconfig"; path = "Target Support Files/Pods-MotivationWidgetQuoteExtension/Pods-MotivationWidgetQuoteExtension.release.xcconfig"; sourceTree = "<group>"; };
 		1E039EF52687AF1B0024B801 /* Motivation quotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Motivation quotes.entitlements"; sourceTree = "<group>"; };
 		1E07CBF72688D8680001C4DB /* ColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
+		1E2B639D268F2BFC00B7FB9E /* Motivation quotesDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Motivation quotesDebug.entitlements"; sourceTree = "<group>"; };
+		1E2DF94E268C806A00EE04C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E36AB93267FCFC200DDD757 /* Motivation quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motivation quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E36AB96267FCFC200DDD757 /* Motivation_quotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motivation_quotesApp.swift; sourceTree = "<group>"; };
 		1E36AB98267FCFC200DDD757 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +97,13 @@
 		1ECD5D8D2688E816000A6C27 /* MotivationWidgetQuoteExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MotivationWidgetQuoteExtensionDebug.entitlements; sourceTree = "<group>"; };
 		1ED5CF9B268114C2006B184B /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
 		1EDC1AB82688FDC2005482E7 /* BackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModifier.swift; sourceTree = "<group>"; };
+		1EF0CAA6268C87CB0043D77E /* BannerAdmobSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdmobSize.swift; sourceTree = "<group>"; };
+		1EF0CAA8268C87EB0043D77E /* BannerAdmob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdmob.swift; sourceTree = "<group>"; };
+		44498D067A28FB5EDAA44848 /* Pods-Motivation quotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivation quotes.release.xcconfig"; path = "Target Support Files/Pods-Motivation quotes/Pods-Motivation quotes.release.xcconfig"; sourceTree = "<group>"; };
+		79BF56D27B4BAE10D4341DB0 /* Pods-Motivation quotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivation quotes.debug.xcconfig"; path = "Target Support Files/Pods-Motivation quotes/Pods-Motivation quotes.debug.xcconfig"; sourceTree = "<group>"; };
+		C813871B86C5A8F1EB482B78 /* Pods-MotivationWidgetQuoteExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotivationWidgetQuoteExtension.debug.xcconfig"; path = "Target Support Files/Pods-MotivationWidgetQuoteExtension/Pods-MotivationWidgetQuoteExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		D2F9A14E8B13F1BBA957B628 /* Pods_MotivationWidgetQuoteExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotivationWidgetQuoteExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F196E6B4673FE01CE7927681 /* Pods_Motivation_quotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Motivation_quotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B0C56F7702C39D03EC269AA /* Pods_Motivation_quotes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,8 +119,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EF0CAAE268C89BF0043D77E /* Pods_Motivation_quotes.framework in Frameworks */,
 				1ECD5D7B2688E7E4000A6C27 /* SwiftUI.framework in Frameworks */,
 				1ECD5D7A2688E7E4000A6C27 /* WidgetKit.framework in Frameworks */,
+				5A60946158CE1E3A075C0FB3 /* Pods_MotivationWidgetQuoteExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,11 +132,13 @@
 		1E36AB8A267FCFC100DDD757 = {
 			isa = PBXGroup;
 			children = (
+				1E039EF52687AF1B0024B801 /* Motivation quotes.entitlements */,
 				1ECD5D8D2688E816000A6C27 /* MotivationWidgetQuoteExtensionDebug.entitlements */,
 				1E36AB95267FCFC200DDD757 /* Motivation quotes */,
 				1ECD5D7C2688E7E4000A6C27 /* MotivationWidgetQuote */,
 				1E36ABAD267FD33C00DDD757 /* Frameworks */,
 				1E36AB94267FCFC200DDD757 /* Products */,
+				357ADB040C19D752531F57CC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,12 +154,14 @@
 		1E36AB95267FCFC200DDD757 /* Motivation quotes */ = {
 			isa = PBXGroup;
 			children = (
+				1E2B639D268F2BFC00B7FB9E /* Motivation quotesDebug.entitlements */,
 				1E433AE1268A7C3800738378 /* Motivation-quotes-Info.plist */,
-				1E039EF52687AF1B0024B801 /* Motivation quotes.entitlements */,
+				1E2DF94E268C806A00EE04C5 /* AppDelegate.swift */,
 				1E36AB96267FCFC200DDD757 /* Motivation_quotesApp.swift */,
 				1EDC1ABC2688FE58005482E7 /* Views */,
 				1EDC1ABE2688FE6A005482E7 /* JsonFetcher */,
 				1EDC1ABA2688FE2A005482E7 /* Extensions */,
+				1EF0CAA5268C87AE0043D77E /* admob */,
 				1E36AB9A267FCFC300DDD757 /* Assets.xcassets */,
 				1E36AB9C267FCFC300DDD757 /* Preview Content */,
 			);
@@ -149,6 +181,8 @@
 			children = (
 				1E36ABB0267FD33C00DDD757 /* SwiftUI.framework */,
 				1ECD5D792688E7E4000A6C27 /* WidgetKit.framework */,
+				F196E6B4673FE01CE7927681 /* Pods_Motivation_quotes.framework */,
+				D2F9A14E8B13F1BBA957B628 /* Pods_MotivationWidgetQuoteExtension.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +226,26 @@
 			path = JsonFetcher;
 			sourceTree = "<group>";
 		};
+		1EF0CAA5268C87AE0043D77E /* admob */ = {
+			isa = PBXGroup;
+			children = (
+				1EF0CAA6268C87CB0043D77E /* BannerAdmobSize.swift */,
+				1EF0CAA8268C87EB0043D77E /* BannerAdmob.swift */,
+			);
+			path = admob;
+			sourceTree = "<group>";
+		};
+		357ADB040C19D752531F57CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79BF56D27B4BAE10D4341DB0 /* Pods-Motivation quotes.debug.xcconfig */,
+				44498D067A28FB5EDAA44848 /* Pods-Motivation quotes.release.xcconfig */,
+				C813871B86C5A8F1EB482B78 /* Pods-MotivationWidgetQuoteExtension.debug.xcconfig */,
+				0B1F0C1C5AF0851F371FC8AB /* Pods-MotivationWidgetQuoteExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -199,10 +253,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E36ABA1267FCFC300DDD757 /* Build configuration list for PBXNativeTarget "Motivation quotes" */;
 			buildPhases = (
+				E545015F0C250A5FB68C79AE /* [CP] Check Pods Manifest.lock */,
 				1E36AB8F267FCFC200DDD757 /* Sources */,
 				1E36AB90267FCFC200DDD757 /* Frameworks */,
 				1E36AB91267FCFC200DDD757 /* Resources */,
 				1E36ABC1267FD34100DDD757 /* Embed App Extensions */,
+				1EA358FD268C7C3A00D6FABD /* Embed Frameworks */,
+				74C62BB939B0979FDD983380 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1ECD5D882688E7E6000A6C27 /* Build configuration list for PBXNativeTarget "MotivationWidgetQuoteExtension" */;
 			buildPhases = (
+				466D9A14D18152ED28E6D44A /* [CP] Check Pods Manifest.lock */,
 				1ECD5D742688E7E4000A6C27 /* Sources */,
 				1ECD5D752688E7E4000A6C27 /* Frameworks */,
 				1ECD5D762688E7E4000A6C27 /* Resources */,
@@ -250,7 +308,7 @@
 				};
 			};
 			buildConfigurationList = 1E36AB8E267FCFC100DDD757 /* Build configuration list for PBXProject "Motivation quotes" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -290,6 +348,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		466D9A14D18152ED28E6D44A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MotivationWidgetQuoteExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74C62BB939B0979FDD983380 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Motivation quotes/Pods-Motivation quotes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Motivation quotes/Pods-Motivation quotes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Motivation quotes/Pods-Motivation quotes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E545015F0C250A5FB68C79AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Motivation quotes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E36AB8F267FCFC200DDD757 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -298,6 +420,9 @@
 				1E07CBF82688D8680001C4DB /* ColorExt.swift in Sources */,
 				1E36AB99267FCFC200DDD757 /* ContentView.swift in Sources */,
 				1E36ABA5267FD02500DDD757 /* MotivationQuote.swift in Sources */,
+				1EF0CAA9268C87EB0043D77E /* BannerAdmob.swift in Sources */,
+				1E2DF94F268C806A00EE04C5 /* AppDelegate.swift in Sources */,
+				1EF0CAA7268C87CB0043D77E /* BannerAdmobSize.swift in Sources */,
 				1ECD5D842688E7E6000A6C27 /* MotivationWidgetQuote.intentdefinition in Sources */,
 				1E36ABA7267FD09700DDD757 /* MotivationalQuoteView.swift in Sources */,
 				1E936EBB268A680700E392C8 /* ConfigureWidgetView.swift in Sources */,
@@ -311,13 +436,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1ECD5D7E2688E7E4000A6C27 /* MotivationWidgetQuote.swift in Sources */,
-				1ECD5D8C2688E80A000A6C27 /* ColorExt.swift in Sources */,
-				1EDC1ABD2688FE64005482E7 /* ContentView.swift in Sources */,
 				1ECD5D8B2688E806000A6C27 /* MotivationQuote.swift in Sources */,
 				1ECD5D832688E7E6000A6C27 /* MotivationWidgetQuote.intentdefinition in Sources */,
 				1E936EBC268A68C600E392C8 /* ConfigureWidgetView.swift in Sources */,
 				1EDC1ABB2688FE46005482E7 /* BackgroundModifier.swift in Sources */,
 				1ECD5D8E2688E83C000A6C27 /* MotivationalQuoteView.swift in Sources */,
+				1EF0CAB0268C8A360043D77E /* ColorExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,25 +574,26 @@
 		};
 		1E36ABA2267FCFC300DDD757 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79BF56D27B4BAE10D4341DB0 /* Pods-Motivation quotes.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Motivation quotes/Motivation quotes.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Motivation quotes/Motivation quotesDebug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Motivation quotes/Preview Content\"";
 				DEVELOPMENT_TEAM = 2R9D8RVTAY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Motivation-quotes-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Motivation Quote Widget - Daily ";
+				INFOPLIST_KEY_CFBundleDisplayName = "Motivation Quote";
 				INFOPLIST_KEY_CFBundleExecutable = "Motivation quotes";
-				INFOPLIST_KEY_CFBundleName = "Motivation quotes";
-				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_CFBundleName = "Motivation Quotes";
+				INFOPLIST_KEY_CFBundleVersion = 3;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -487,25 +612,25 @@
 		};
 		1E36ABA3267FCFC300DDD757 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44498D067A28FB5EDAA44848 /* Pods-Motivation quotes.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Motivation quotes/Motivation quotes.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"Motivation quotes/Preview Content\"";
 				DEVELOPMENT_TEAM = 2R9D8RVTAY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Motivation-quotes-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Motivation Quote Widget - Daily ";
+				INFOPLIST_KEY_CFBundleDisplayName = "Motivation Quote";
 				INFOPLIST_KEY_CFBundleExecutable = "Motivation quotes";
-				INFOPLIST_KEY_CFBundleName = "Motivation quotes";
-				INFOPLIST_KEY_CFBundleVersion = 1;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_CFBundleName = "Motivation Quotes";
+				INFOPLIST_KEY_CFBundleVersion = 3;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -524,6 +649,7 @@
 		};
 		1ECD5D892688E7E6000A6C27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C813871B86C5A8F1EB482B78 /* Pods-MotivationWidgetQuoteExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -533,7 +659,10 @@
 				DEVELOPMENT_TEAM = 2R9D8RVTAY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MotivationWidgetQuote/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = MotivationWidgetQuote;
+				INFOPLIST_KEY_CFBundleDisplayName = "Motivation Quote Widget";
+				INFOPLIST_KEY_CFBundleExecutable = MotivationWidgetQuoteExtension;
+				INFOPLIST_KEY_CFBundleName = MotivationWidgetQuoteExtension;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -553,6 +682,7 @@
 		};
 		1ECD5D8A2688E7E6000A6C27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B1F0C1C5AF0851F371FC8AB /* Pods-MotivationWidgetQuoteExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -561,7 +691,10 @@
 				DEVELOPMENT_TEAM = 2R9D8RVTAY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MotivationWidgetQuote/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = MotivationWidgetQuote;
+				INFOPLIST_KEY_CFBundleDisplayName = "Motivation Quote Widget";
+				INFOPLIST_KEY_CFBundleExecutable = MotivationWidgetQuoteExtension;
+				INFOPLIST_KEY_CFBundleName = MotivationWidgetQuoteExtension;
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -8,9 +8,6 @@
 import WidgetKit
 import SwiftUI
 
-let data1 = MotivationQuote(quoteText: "You can observe a lot just by watching.", quoteAuthor: "Yogi Berra")
-let data2 = MotivationQuote(quoteText: "Genius is one percent inspiration and ninety-nine percent perspiration.", quoteAuthor: "Thomas Edison")
-
 // timeline entry
 struct MotivationQuoteEntry: TimelineEntry {
     var date: Date
@@ -44,7 +41,7 @@ struct Provider: TimelineProvider {
         quoteAmount = quotes.count
         
         for i in 0..<quoteAmount {
-            entryDate = Calendar.current.date(byAdding: .second, value: 10, to: entryDate)!
+            entryDate = Calendar.current.date(byAdding: .minute, value: 60, to: entryDate)!
             let quote = quotes[i]
             let entry = MotivationQuoteEntry(date: entryDate, motivationQuote: quote)
             enteries.append(entry)
@@ -82,14 +79,12 @@ struct MotivationWidgetQuote: Widget {
     
     var body: some WidgetConfiguration {
         
-        
-        
         StaticConfiguration(kind: kind, provider: Provider(), content: {entry in
             WidgetEntryView(entry: entry)
         })
             .supportedFamilies([.systemMedium])
-            .configurationDisplayName("Motivation Quote Widget")
-            .description("this widget will show the quotes")
+            .configurationDisplayName("Quote Widget")
+            .description("This widget is used to show the quotes")
             
     }
 }

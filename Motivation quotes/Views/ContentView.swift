@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var showingSheet: Bool = false
+    @ObservedObject var bannerAdmobSize: BannerAdmobSize = .shared
     
     var body: some View {
         VStack() {
@@ -38,9 +39,15 @@ struct ContentView: View {
                 ConfigureWidgetView()
             }
             
-            
             Spacer()
+            
+            
+            BannerAdmob()
+                .frame(width: bannerAdmobSize.adGADSize.size.width, height: bannerAdmobSize.adGADSize.size.height, alignment: .center)
+            
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .ignoresSafeArea()
         .padding()
      
     }
