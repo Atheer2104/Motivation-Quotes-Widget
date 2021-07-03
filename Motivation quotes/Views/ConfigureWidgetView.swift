@@ -55,6 +55,11 @@ struct ConfigureWidgetView: View {
         }
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
             WidgetCenter.shared.reloadAllTimelines()
+            let bgcolor = UIColor(bacgroundColor)
+            var bgcolorred: CGFloat = 0, bgcolorgreen: CGFloat = 0, bgcolorblue: CGFloat = 0, bgcoloralpha: CGFloat = 0
+            bgcolor.getRed(&bgcolorred, green: &bgcolorgreen, blue: &bgcolorblue, alpha: &bgcoloralpha)
+            print("red: \(bgcolorred * 255), green: \(bgcolorgreen * 255), blue: \(bgcolorblue * 255)")
+            print(textColor.description)
         }
     }
 }
