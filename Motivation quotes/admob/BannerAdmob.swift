@@ -14,7 +14,7 @@ final class BannerAdmob: UIViewControllerRepresentable {
     
     func makeUIViewController(context: Context) -> UIViewController {
         let banner = GADBannerView(adSize: bannerAdmobSize.adGADSize)
-    
+        
         let viewController = UIViewController()
         banner.adUnitID = "ca-app-pub-7604332955528357/8121863874"
         banner.rootViewController = viewController

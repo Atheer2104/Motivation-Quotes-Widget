@@ -48,7 +48,7 @@ struct ConfigureWidgetView: View {
                     .foregroundColor(Color(UIColor.label))
                     .modifier(BackgroundModifier())
             }
-            
+            .padding(.horizontal)
             Spacer()
             
             

@@ -17,6 +17,7 @@
 		1E36ABA7267FD09700DDD757 /* MotivationalQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36ABA6267FD09700DDD757 /* MotivationalQuoteView.swift */; };
 		1E936EBB268A680700E392C8 /* ConfigureWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E936EBA268A680700E392C8 /* ConfigureWidgetView.swift */; };
 		1E936EBC268A68C600E392C8 /* ConfigureWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E936EBA268A680700E392C8 /* ConfigureWidgetView.swift */; };
+		1EBB292C268F4F9B003731AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB292B268F4F9B003731AE /* LaunchScreen.storyboard */; };
 		1ECD5D7A2688E7E4000A6C27 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECD5D792688E7E4000A6C27 /* WidgetKit.framework */; };
 		1ECD5D7B2688E7E4000A6C27 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E36ABB0267FD33C00DDD757 /* SwiftUI.framework */; };
 		1ECD5D7E2688E7E4000A6C27 /* MotivationWidgetQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD5D7D2688E7E4000A6C27 /* MotivationWidgetQuote.swift */; };
@@ -88,6 +89,7 @@
 		1E36ABB0267FD33C00DDD757 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		1E433AE1268A7C3800738378 /* Motivation-quotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Motivation-quotes-Info.plist"; sourceTree = SOURCE_ROOT; };
 		1E936EBA268A680700E392C8 /* ConfigureWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureWidgetView.swift; sourceTree = "<group>"; };
+		1EBB292B268F4F9B003731AE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ECD5D782688E7E4000A6C27 /* MotivationWidgetQuoteExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MotivationWidgetQuoteExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ECD5D792688E7E4000A6C27 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		1ECD5D7D2688E7E4000A6C27 /* MotivationWidgetQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationWidgetQuote.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 		1E36AB95267FCFC200DDD757 /* Motivation quotes */ = {
 			isa = PBXGroup;
 			children = (
+				1EBB292B268F4F9B003731AE /* LaunchScreen.storyboard */,
 				1E2B639D268F2BFC00B7FB9E /* Motivation quotesDebug.entitlements */,
 				1E433AE1268A7C3800738378 /* Motivation-quotes-Info.plist */,
 				1E2DF94E268C806A00EE04C5 /* AppDelegate.swift */,
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E36AB9E267FCFC300DDD757 /* Preview Assets.xcassets in Resources */,
+				1EBB292C268F4F9B003731AE /* LaunchScreen.storyboard in Resources */,
 				1E36AB9B267FCFC300DDD757 /* Assets.xcassets in Resources */,
 				1ED5CF9C268114C2006B184B /* quotes.json in Resources */,
 			);
@@ -581,7 +585,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Motivation quotes/Motivation quotesDebug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Motivation quotes/Preview Content\"";
 				DEVELOPMENT_TEAM = 2R9D8RVTAY;
 				ENABLE_PREVIEWS = YES;
@@ -602,7 +606,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.as.Motivation-quotes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -619,7 +623,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Motivation quotes/Preview Content\"";
 				DEVELOPMENT_TEAM = 2R9D8RVTAY;
 				ENABLE_PREVIEWS = YES;
@@ -640,7 +644,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.as.Motivation-quotes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
