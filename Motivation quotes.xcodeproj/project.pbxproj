@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		1E07CBF82688D8680001C4DB /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E07CBF72688D8680001C4DB /* ColorExt.swift */; };
 		1E147D6A2690C7FF004C145C /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E147D692690C7FF004C145C /* UIColorExt.swift */; };
+		1E1524E02696487C0096D1DE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1524DF2696487C0096D1DE /* HomeView.swift */; };
+		1E1524E5269651220096D1DE /* Timeframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1524E4269651220096D1DE /* Timeframe.swift */; };
+		1E1524E7269654710096D1DE /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1524E6269654710096D1DE /* ViewExt.swift */; };
+		1E1524E9269655490096D1DE /* MinuteEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1524E8269655490096D1DE /* MinuteEnum.swift */; };
+		1E1524EB269655530096D1DE /* HourEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1524EA269655530096D1DE /* HourEnum.swift */; };
 		1E2DF94F268C806A00EE04C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2DF94E268C806A00EE04C5 /* AppDelegate.swift */; };
 		1E36AB97267FCFC200DDD757 /* Motivation_quotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36AB96267FCFC200DDD757 /* Motivation_quotesApp.swift */; };
 		1E36AB99267FCFC200DDD757 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36AB98267FCFC200DDD757 /* ContentView.swift */; };
@@ -16,6 +21,15 @@
 		1E36AB9E267FCFC300DDD757 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E36AB9D267FCFC300DDD757 /* Preview Assets.xcassets */; };
 		1E36ABA5267FD02500DDD757 /* MotivationQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36ABA4267FD02500DDD757 /* MotivationQuote.swift */; };
 		1E36ABA7267FD09700DDD757 /* MotivationalQuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36ABA6267FD09700DDD757 /* MotivationalQuoteView.swift */; };
+		1E4803F0269B64E700AF091A /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4803EF269B64E700AF091A /* CustomDivider.swift */; };
+		1E4803F1269B656400AF091A /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4803EF269B64E700AF091A /* CustomDivider.swift */; };
+		1E67D5502697ABC50062CF82 /* WidgetTimeConfiguartion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E67D54F2697ABC50062CF82 /* WidgetTimeConfiguartion.swift */; };
+		1E67D5512697AC910062CF82 /* WidgetTimeConfiguartion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E67D54F2697ABC50062CF82 /* WidgetTimeConfiguartion.swift */; };
+		1E67D5522697ACAB0062CF82 /* Timeframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1524E4269651220096D1DE /* Timeframe.swift */; };
+		1E67D5542697ACB90062CF82 /* MinuteEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1524E8269655490096D1DE /* MinuteEnum.swift */; };
+		1E67D5552697ACBC0062CF82 /* HourEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1524EA269655530096D1DE /* HourEnum.swift */; };
+		1E80836C2698FBA7009D620E /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E80836B2698FBA7009D620E /* Indicator.swift */; };
+		1E80836D2698FBCE009D620E /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E80836B2698FBA7009D620E /* Indicator.swift */; };
 		1E936EBB268A680700E392C8 /* ConfigureWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E936EBA268A680700E392C8 /* ConfigureWidgetView.swift */; };
 		1E936EBC268A68C600E392C8 /* ConfigureWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E936EBA268A680700E392C8 /* ConfigureWidgetView.swift */; };
 		1EBB292C268F4F9B003731AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB292B268F4F9B003731AE /* LaunchScreen.storyboard */; };
@@ -79,6 +93,11 @@
 		1E039EF52687AF1B0024B801 /* Motivation quotes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Motivation quotes.entitlements"; sourceTree = "<group>"; };
 		1E07CBF72688D8680001C4DB /* ColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExt.swift; sourceTree = "<group>"; };
 		1E147D692690C7FF004C145C /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		1E1524DF2696487C0096D1DE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1E1524E4269651220096D1DE /* Timeframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeframe.swift; sourceTree = "<group>"; };
+		1E1524E6269654710096D1DE /* ViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
+		1E1524E8269655490096D1DE /* MinuteEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinuteEnum.swift; sourceTree = "<group>"; };
+		1E1524EA269655530096D1DE /* HourEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourEnum.swift; sourceTree = "<group>"; };
 		1E2B639D268F2BFC00B7FB9E /* Motivation quotesDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Motivation quotesDebug.entitlements"; sourceTree = "<group>"; };
 		1E2DF94E268C806A00EE04C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E36AB93267FCFC200DDD757 /* Motivation quotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Motivation quotes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +109,9 @@
 		1E36ABA6267FD09700DDD757 /* MotivationalQuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationalQuoteView.swift; sourceTree = "<group>"; };
 		1E36ABB0267FD33C00DDD757 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		1E433AE1268A7C3800738378 /* Motivation-quotes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Motivation-quotes-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1E4803EF269B64E700AF091A /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
+		1E67D54F2697ABC50062CF82 /* WidgetTimeConfiguartion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetTimeConfiguartion.swift; sourceTree = "<group>"; };
+		1E80836B2698FBA7009D620E /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
 		1E851D472690CBC1001332CE /* MotivationWidgetQuoteExtensionRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MotivationWidgetQuoteExtensionRelease.entitlements; sourceTree = "<group>"; };
 		1E851D482690CBFA001332CE /* Motivation quotesRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Motivation quotesRelease.entitlements"; sourceTree = "<group>"; };
 		1E936EBA268A680700E392C8 /* ConfigureWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureWidgetView.swift; sourceTree = "<group>"; };
@@ -135,6 +157,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E1524E126964BD20096D1DE /* TimeEnums */ = {
+			isa = PBXGroup;
+			children = (
+				1E1524E4269651220096D1DE /* Timeframe.swift */,
+				1E1524E8269655490096D1DE /* MinuteEnum.swift */,
+				1E1524EA269655530096D1DE /* HourEnum.swift */,
+			);
+			path = TimeEnums;
+			sourceTree = "<group>";
+		};
 		1E36AB8A267FCFC100DDD757 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +203,7 @@
 				1EDC1ABE2688FE6A005482E7 /* JsonFetcher */,
 				1EDC1ABA2688FE2A005482E7 /* Extensions */,
 				1EF0CAA5268C87AE0043D77E /* admob */,
+				1E1524E126964BD20096D1DE /* TimeEnums */,
 				1E36AB9A267FCFC300DDD757 /* Assets.xcassets */,
 				1E36AB9C267FCFC300DDD757 /* Preview Content */,
 			);
@@ -213,6 +246,7 @@
 				1EDC1AB82688FDC2005482E7 /* BackgroundModifier.swift */,
 				1E07CBF72688D8680001C4DB /* ColorExt.swift */,
 				1E147D692690C7FF004C145C /* UIColorExt.swift */,
+				1E1524E6269654710096D1DE /* ViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -221,8 +255,12 @@
 			isa = PBXGroup;
 			children = (
 				1E36AB98267FCFC200DDD757 /* ContentView.swift */,
+				1E1524DF2696487C0096D1DE /* HomeView.swift */,
 				1E936EBA268A680700E392C8 /* ConfigureWidgetView.swift */,
+				1E67D54F2697ABC50062CF82 /* WidgetTimeConfiguartion.swift */,
 				1E36ABA6267FD09700DDD757 /* MotivationalQuoteView.swift */,
+				1E80836B2698FBA7009D620E /* Indicator.swift */,
+				1E4803EF269B64E700AF091A /* CustomDivider.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -430,16 +468,24 @@
 			files = (
 				1E07CBF82688D8680001C4DB /* ColorExt.swift in Sources */,
 				1E147D6A2690C7FF004C145C /* UIColorExt.swift in Sources */,
+				1E80836C2698FBA7009D620E /* Indicator.swift in Sources */,
+				1E1524E02696487C0096D1DE /* HomeView.swift in Sources */,
+				1E1524E7269654710096D1DE /* ViewExt.swift in Sources */,
 				1E36AB99267FCFC200DDD757 /* ContentView.swift in Sources */,
 				1E36ABA5267FD02500DDD757 /* MotivationQuote.swift in Sources */,
 				1EF0CAA9268C87EB0043D77E /* BannerAdmob.swift in Sources */,
 				1E2DF94F268C806A00EE04C5 /* AppDelegate.swift in Sources */,
 				1EF0CAA7268C87CB0043D77E /* BannerAdmobSize.swift in Sources */,
 				1ECD5D842688E7E6000A6C27 /* MotivationWidgetQuote.intentdefinition in Sources */,
+				1E1524E5269651220096D1DE /* Timeframe.swift in Sources */,
+				1E1524EB269655530096D1DE /* HourEnum.swift in Sources */,
+				1E67D5502697ABC50062CF82 /* WidgetTimeConfiguartion.swift in Sources */,
 				1E36ABA7267FD09700DDD757 /* MotivationalQuoteView.swift in Sources */,
 				1E936EBB268A680700E392C8 /* ConfigureWidgetView.swift in Sources */,
 				1E36AB97267FCFC200DDD757 /* Motivation_quotesApp.swift in Sources */,
 				1EDC1AB92688FDC2005482E7 /* BackgroundModifier.swift in Sources */,
+				1E1524E9269655490096D1DE /* MinuteEnum.swift in Sources */,
+				1E4803F0269B64E700AF091A /* CustomDivider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,12 +493,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E80836D2698FBCE009D620E /* Indicator.swift in Sources */,
+				1E67D5552697ACBC0062CF82 /* HourEnum.swift in Sources */,
 				1ECD5D7E2688E7E4000A6C27 /* MotivationWidgetQuote.swift in Sources */,
 				1ECD5D8B2688E806000A6C27 /* MotivationQuote.swift in Sources */,
 				1ECD5D832688E7E6000A6C27 /* MotivationWidgetQuote.intentdefinition in Sources */,
+				1E4803F1269B656400AF091A /* CustomDivider.swift in Sources */,
+				1E67D5512697AC910062CF82 /* WidgetTimeConfiguartion.swift in Sources */,
 				1E936EBC268A68C600E392C8 /* ConfigureWidgetView.swift in Sources */,
+				1E67D5542697ACB90062CF82 /* MinuteEnum.swift in Sources */,
 				1EDC1ABB2688FE46005482E7 /* BackgroundModifier.swift in Sources */,
 				1ECD5D8E2688E83C000A6C27 /* MotivationalQuoteView.swift in Sources */,
+				1E67D5522697ACAB0062CF82 /* Timeframe.swift in Sources */,
 				1EF0CAB0268C8A360043D77E /* ColorExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -687,7 +739,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.as.Motivation-quotes.MotivationWidgetQuote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -720,7 +772,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.as.Motivation-quotes.MotivationWidgetQuote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

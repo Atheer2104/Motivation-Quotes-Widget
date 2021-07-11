@@ -47,7 +47,7 @@ struct MotivationQuotes: Codable {
     static func getQuotes(_ num: Int) -> [MotivationQuote] {
         if let Quotes = parseQuote() {
             var quotes: [MotivationQuote] = []
-            for _ in 0...num {
+            for _ in 0..<num {
                 quotes.append(Quotes.Quotes.randomElement()!)
                 
             }

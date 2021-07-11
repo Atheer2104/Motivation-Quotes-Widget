@@ -31,17 +31,25 @@ struct Provider: TimelineProvider {
     }
     
     func getTimeline(in context: Context, completion: @escaping (Timeline<MotivationQuoteEntry>) -> Void) {
+        @AppStorage("widgetTime", store: UserDefaults(suiteName: "group.com.atheer.widgetTime"))
+        var widgetTime: Int = 60
+        let minutesInADay: Int = 1440
+        
         var enteries: [MotivationQuoteEntry] = []
         var entryDate = Date()
-        var quoteAmount: Int = 4
+        var quoteAmount: Int = minutesInADay / widgetTime
+        //print("quoteAmount: \(quoteAmount)")
+        //print("widgetTime: \(widgetTime)")
         
-        let quotes = MotivationQuotes.getQuotes(quoteAmount)
+        let quotes = MotivationQuotes.getQuotes(quoteAmount + 2)
         
         // in case we only get the N/A back we should reset the quote amount
         quoteAmount = quotes.count
         
-        for i in 0..<quoteAmount {
-            entryDate = Calendar.current.date(byAdding: .minute, value: 60, to: entryDate)!
+        // starting from index 2 to partially solve that the first quote immediatly gets skipped
+        for i in 2..<quoteAmount {
+            entryDate = Calendar.current.date(byAdding: .minute, value: widgetTime, to: entryDate)!
+            print(entryDate)
             let quote = quotes[i]
             let entry = MotivationQuoteEntry(date: entryDate, motivationQuote: quote)
             enteries.append(entry)
@@ -53,7 +61,6 @@ struct Provider: TimelineProvider {
     }
 }
 
-//motivationquote view
 struct WidgetEntryView: View {
     let entry: Provider.Entry
     
@@ -72,7 +79,6 @@ struct WidgetEntryView: View {
     }
 }
 
-//main
 @main
 struct MotivationWidgetQuote: Widget {
     private let kind = "MotivationWidgetQuote"

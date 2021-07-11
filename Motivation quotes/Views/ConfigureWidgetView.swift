@@ -19,8 +19,16 @@ struct ConfigureWidgetView: View {
     @AppStorage("textColor", store: UserDefaults(suiteName: "group.com.atheer.textColor"))
     var textColor: Color = .white
     
+    @State var showingConfigureWidgetTime: Bool = false
+    
     var body: some View {
         VStack {
+            Indicator()
+                .padding(.top, 20)
+                .padding(.bottom, 10)
+            
+            CustomDivider()
+            
             Text("Widget Preview")
                 .font(.title)
                 .padding()
@@ -40,13 +48,26 @@ struct ConfigureWidgetView: View {
                 ColorPicker("Text Color", selection: $textColor, supportsOpacity: true)
                     .modifier(BackgroundModifier())
                 
-                Button("Reset Colors", action: {
-                    bacgroundColor = colorScheme == .dark ? Color.black : Color.white
-                    textColor = colorScheme == .dark ? Color.white : Color.black
-                    print("reseted")
-                })
-                    .foregroundColor(Color(UIColor.label))
-                    .modifier(BackgroundModifier())
+                HStack {
+                    Button("Configure WidgetTime", action: {
+                        showingConfigureWidgetTime.toggle()
+                    })
+                        .foregroundColor(Color(UIColor.label))
+                        .modifier(BackgroundModifier())
+                        .sheet(isPresented: $showingConfigureWidgetTime) {
+                            WidgetTimeConfiguartion()
+                        }
+                    
+                    Spacer()
+                    
+                    Button("Reset Colors", action: {
+                        bacgroundColor = colorScheme == .dark ? Color.black : Color.white
+                        textColor = colorScheme == .dark ? Color.white : Color.black
+                        print("reseted")
+                    })
+                        .foregroundColor(Color(UIColor.label))
+                        .modifier(BackgroundModifier())
+                }
             }
             .padding(.horizontal)
             Spacer()
@@ -55,11 +76,7 @@ struct ConfigureWidgetView: View {
         }
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.willResignActiveNotification)) { _ in
             WidgetCenter.shared.reloadAllTimelines()
-            let bgcolor = UIColor(bacgroundColor)
-            var bgcolorred: CGFloat = 0, bgcolorgreen: CGFloat = 0, bgcolorblue: CGFloat = 0, bgcoloralpha: CGFloat = 0
-            bgcolor.getRed(&bgcolorred, green: &bgcolorgreen, blue: &bgcolorblue, alpha: &bgcoloralpha)
-            print("red: \(bgcolorred * 255), green: \(bgcolorgreen * 255), blue: \(bgcolorblue * 255)")
-            print(textColor.description)
+            print("went to background from configure widget")
         }
     }
 }
