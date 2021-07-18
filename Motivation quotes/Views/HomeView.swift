@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct HomeView: View {
-    @State var showingSheet: Bool = false
+    @State var showingConfigureSheet: Bool = false
+    @State var showingAddWidgetSheet: Bool = false
     @ObservedObject var bannerAdmobSize: BannerAdmobSize = .shared
     
     var body: some View {
@@ -26,7 +27,7 @@ struct HomeView: View {
             Text("Your are now all set to start adding widgets to your Home Screen😁")
                 .font(.headline)
                 .padding()
-            
+            /*
             Text("From the Home Screen, touch and hold an empty area until the apps jiggle")
                 .font(.subheadline)
                 .padding()
@@ -34,15 +35,25 @@ struct HomeView: View {
             Text("Then tap the + button in the upper left corner to add the widget")
                 .font(.subheadline)
                 .padding()
+            */
             
             Spacer()
             
-            Button("Configure Widget") {
-                showingSheet.toggle()
+            Button("Learn how to add Widget") {
+                showingAddWidgetSheet.toggle()
             }
             .foregroundColor(Color(UIColor.label))
             .modifier(BackgroundModifier())
-            .sheet(isPresented: $showingSheet) {
+            .sheet(isPresented: $showingAddWidgetSheet) {
+                LearnHowToAddWidget()
+            }
+            
+            Button("Configure Widget") {
+                showingConfigureSheet.toggle()
+            }
+            .foregroundColor(Color(UIColor.label))
+            .modifier(BackgroundModifier())
+            .sheet(isPresented: $showingConfigureSheet) {
                 ConfigureWidgetView()
             }
             

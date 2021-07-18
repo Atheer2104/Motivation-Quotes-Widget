@@ -68,7 +68,6 @@ enum MinuteEnum: String, CaseIterable, Identifiable {
     case Fiftyseven     = "57"
     case Fiftyeight     = "58"
     case Fiftynine      = "59"
-    case Sixty          = "60"
     
     var id: String { self.rawValue}
 }

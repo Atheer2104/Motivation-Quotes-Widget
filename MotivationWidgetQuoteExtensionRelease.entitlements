@@ -6,6 +6,7 @@
 	<array>
 		<string>group.com.atheer.bacgroundColor</string>
 		<string>group.com.atheer.textColor</string>
+		<string>group.com.atheer.widgetTime</string>
 	</array>
 </dict>
 </plist>

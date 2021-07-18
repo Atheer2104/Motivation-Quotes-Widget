@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1307077F46B656720912F650 /* Pods_Motivation_quotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD74AAEF79CF4F268DD211C /* Pods_Motivation_quotes.framework */; };
 		1E07CBF82688D8680001C4DB /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E07CBF72688D8680001C4DB /* ColorExt.swift */; };
 		1E147D6A2690C7FF004C145C /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E147D692690C7FF004C145C /* UIColorExt.swift */; };
 		1E1524E02696487C0096D1DE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1524DF2696487C0096D1DE /* HomeView.swift */; };
@@ -33,6 +34,8 @@
 		1E936EBB268A680700E392C8 /* ConfigureWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E936EBA268A680700E392C8 /* ConfigureWidgetView.swift */; };
 		1E936EBC268A68C600E392C8 /* ConfigureWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E936EBA268A680700E392C8 /* ConfigureWidgetView.swift */; };
 		1EBB292C268F4F9B003731AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EBB292B268F4F9B003731AE /* LaunchScreen.storyboard */; };
+		1ECBE17426A4451000B229F1 /* addwidgetGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1ECBE17326A4451000B229F1 /* addwidgetGIF.gif */; };
+		1ECBE17526A4451000B229F1 /* addwidgetGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1ECBE17326A4451000B229F1 /* addwidgetGIF.gif */; };
 		1ECD5D7A2688E7E4000A6C27 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ECD5D792688E7E4000A6C27 /* WidgetKit.framework */; };
 		1ECD5D7B2688E7E4000A6C27 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E36ABB0267FD33C00DDD757 /* SwiftUI.framework */; };
 		1ECD5D7E2688E7E4000A6C27 /* MotivationWidgetQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECD5D7D2688E7E4000A6C27 /* MotivationWidgetQuote.swift */; };
@@ -46,12 +49,12 @@
 		1EDC1AB72688EC0D005482E7 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 1ED5CF9B268114C2006B184B /* quotes.json */; };
 		1EDC1AB92688FDC2005482E7 /* BackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDC1AB82688FDC2005482E7 /* BackgroundModifier.swift */; };
 		1EDC1ABB2688FE46005482E7 /* BackgroundModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDC1AB82688FDC2005482E7 /* BackgroundModifier.swift */; };
+		1EE7673826A35F8300F3290D /* LearnHowToAddWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE7673726A35F8300F3290D /* LearnHowToAddWidget.swift */; };
 		1EF0CAA7268C87CB0043D77E /* BannerAdmobSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF0CAA6268C87CB0043D77E /* BannerAdmobSize.swift */; };
 		1EF0CAA9268C87EB0043D77E /* BannerAdmob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF0CAA8268C87EB0043D77E /* BannerAdmob.swift */; };
-		1EF0CAAE268C89BF0043D77E /* Pods_Motivation_quotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F196E6B4673FE01CE7927681 /* Pods_Motivation_quotes.framework */; };
 		1EF0CAB0268C8A360043D77E /* ColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E07CBF72688D8680001C4DB /* ColorExt.swift */; };
 		5A60946158CE1E3A075C0FB3 /* Pods_MotivationWidgetQuoteExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F9A14E8B13F1BBA957B628 /* Pods_MotivationWidgetQuoteExtension.framework */; };
-		7B0C56F7702C39D03EC269AA /* Pods_Motivation_quotes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F196E6B4673FE01CE7927681 /* Pods_Motivation_quotes.framework */; };
+		7B0C56F7702C39D03EC269AA /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +119,7 @@
 		1E851D482690CBFA001332CE /* Motivation quotesRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Motivation quotesRelease.entitlements"; sourceTree = "<group>"; };
 		1E936EBA268A680700E392C8 /* ConfigureWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureWidgetView.swift; sourceTree = "<group>"; };
 		1EBB292B268F4F9B003731AE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ECBE17326A4451000B229F1 /* addwidgetGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = addwidgetGIF.gif; sourceTree = "<group>"; };
 		1ECD5D782688E7E4000A6C27 /* MotivationWidgetQuoteExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MotivationWidgetQuoteExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ECD5D792688E7E4000A6C27 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		1ECD5D7D2688E7E4000A6C27 /* MotivationWidgetQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationWidgetQuote.swift; sourceTree = "<group>"; };
@@ -125,13 +129,14 @@
 		1ECD5D8D2688E816000A6C27 /* MotivationWidgetQuoteExtensionDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MotivationWidgetQuoteExtensionDebug.entitlements; sourceTree = "<group>"; };
 		1ED5CF9B268114C2006B184B /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
 		1EDC1AB82688FDC2005482E7 /* BackgroundModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundModifier.swift; sourceTree = "<group>"; };
+		1EE7673726A35F8300F3290D /* LearnHowToAddWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnHowToAddWidget.swift; sourceTree = "<group>"; };
 		1EF0CAA6268C87CB0043D77E /* BannerAdmobSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdmobSize.swift; sourceTree = "<group>"; };
 		1EF0CAA8268C87EB0043D77E /* BannerAdmob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerAdmob.swift; sourceTree = "<group>"; };
 		44498D067A28FB5EDAA44848 /* Pods-Motivation quotes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivation quotes.release.xcconfig"; path = "Target Support Files/Pods-Motivation quotes/Pods-Motivation quotes.release.xcconfig"; sourceTree = "<group>"; };
 		79BF56D27B4BAE10D4341DB0 /* Pods-Motivation quotes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Motivation quotes.debug.xcconfig"; path = "Target Support Files/Pods-Motivation quotes/Pods-Motivation quotes.debug.xcconfig"; sourceTree = "<group>"; };
+		7BD74AAEF79CF4F268DD211C /* Pods_Motivation_quotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Motivation_quotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C813871B86C5A8F1EB482B78 /* Pods-MotivationWidgetQuoteExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotivationWidgetQuoteExtension.debug.xcconfig"; path = "Target Support Files/Pods-MotivationWidgetQuoteExtension/Pods-MotivationWidgetQuoteExtension.debug.xcconfig"; sourceTree = "<group>"; };
 		D2F9A14E8B13F1BBA957B628 /* Pods_MotivationWidgetQuoteExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotivationWidgetQuoteExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F196E6B4673FE01CE7927681 /* Pods_Motivation_quotes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Motivation_quotes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +144,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B0C56F7702C39D03EC269AA /* Pods_Motivation_quotes.framework in Frameworks */,
+				7B0C56F7702C39D03EC269AA /* (null) in Frameworks */,
+				1307077F46B656720912F650 /* Pods_Motivation_quotes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +153,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF0CAAE268C89BF0043D77E /* Pods_Motivation_quotes.framework in Frameworks */,
 				1ECD5D7B2688E7E4000A6C27 /* SwiftUI.framework in Frameworks */,
 				1ECD5D7A2688E7E4000A6C27 /* WidgetKit.framework in Frameworks */,
 				5A60946158CE1E3A075C0FB3 /* Pods_MotivationWidgetQuoteExtension.framework in Frameworks */,
@@ -199,6 +204,7 @@
 				1E433AE1268A7C3800738378 /* Motivation-quotes-Info.plist */,
 				1E2DF94E268C806A00EE04C5 /* AppDelegate.swift */,
 				1E36AB96267FCFC200DDD757 /* Motivation_quotesApp.swift */,
+				1ECBE17326A4451000B229F1 /* addwidgetGIF.gif */,
 				1EDC1ABC2688FE58005482E7 /* Views */,
 				1EDC1ABE2688FE6A005482E7 /* JsonFetcher */,
 				1EDC1ABA2688FE2A005482E7 /* Extensions */,
@@ -223,8 +229,8 @@
 			children = (
 				1E36ABB0267FD33C00DDD757 /* SwiftUI.framework */,
 				1ECD5D792688E7E4000A6C27 /* WidgetKit.framework */,
-				F196E6B4673FE01CE7927681 /* Pods_Motivation_quotes.framework */,
 				D2F9A14E8B13F1BBA957B628 /* Pods_MotivationWidgetQuoteExtension.framework */,
+				7BD74AAEF79CF4F268DD211C /* Pods_Motivation_quotes.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -261,6 +267,7 @@
 				1E36ABA6267FD09700DDD757 /* MotivationalQuoteView.swift */,
 				1E80836B2698FBA7009D620E /* Indicator.swift */,
 				1E4803EF269B64E700AF091A /* CustomDivider.swift */,
+				1EE7673726A35F8300F3290D /* LearnHowToAddWidget.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -381,6 +388,7 @@
 			files = (
 				1E36AB9E267FCFC300DDD757 /* Preview Assets.xcassets in Resources */,
 				1EBB292C268F4F9B003731AE /* LaunchScreen.storyboard in Resources */,
+				1ECBE17426A4451000B229F1 /* addwidgetGIF.gif in Resources */,
 				1E36AB9B267FCFC300DDD757 /* Assets.xcassets in Resources */,
 				1ED5CF9C268114C2006B184B /* quotes.json in Resources */,
 			);
@@ -392,6 +400,7 @@
 			files = (
 				1EDC1AB72688EC0D005482E7 /* quotes.json in Resources */,
 				1ECD5D812688E7E6000A6C27 /* Assets.xcassets in Resources */,
+				1ECBE17526A4451000B229F1 /* addwidgetGIF.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +485,7 @@
 				1EF0CAA9268C87EB0043D77E /* BannerAdmob.swift in Sources */,
 				1E2DF94F268C806A00EE04C5 /* AppDelegate.swift in Sources */,
 				1EF0CAA7268C87CB0043D77E /* BannerAdmobSize.swift in Sources */,
+				1EE7673826A35F8300F3290D /* LearnHowToAddWidget.swift in Sources */,
 				1ECD5D842688E7E6000A6C27 /* MotivationWidgetQuote.intentdefinition in Sources */,
 				1E1524E5269651220096D1DE /* Timeframe.swift in Sources */,
 				1E1524EB269655530096D1DE /* HourEnum.swift in Sources */,

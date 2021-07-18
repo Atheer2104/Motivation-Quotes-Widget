@@ -41,13 +41,21 @@ struct Provider: TimelineProvider {
         //print("quoteAmount: \(quoteAmount)")
         //print("widgetTime: \(widgetTime)")
         
-        let quotes = MotivationQuotes.getQuotes(quoteAmount + 2)
+        let quotes = MotivationQuotes.getQuotes(quoteAmount)
+        
+        // this code is duplicate and used to solve an issue where the first will be skipped
+        // resuluting in that the user needs two wait double the amount of time for the first quote to show
+        entryDate = Calendar.current.date(byAdding: .second, value: 15, to: entryDate)!
+        print(entryDate)
+        let quote = quotes[0]
+        let entry = MotivationQuoteEntry(date: entryDate, motivationQuote: quote)
+        enteries.append(entry)
         
         // in case we only get the N/A back we should reset the quote amount
         quoteAmount = quotes.count
         
         // starting from index 2 to partially solve that the first quote immediatly gets skipped
-        for i in 2..<quoteAmount {
+        for i in 1..<quoteAmount {
             entryDate = Calendar.current.date(byAdding: .minute, value: widgetTime, to: entryDate)!
             print(entryDate)
             let quote = quotes[i]
