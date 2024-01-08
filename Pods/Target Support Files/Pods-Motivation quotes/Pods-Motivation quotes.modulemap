@@ -1,0 +1,6 @@
+framework module Pods_Motivation_quotes {
+  umbrella header "Pods-Motivation quotes-umbrella.h"
+
+  export *
+  module * { export * }
+}

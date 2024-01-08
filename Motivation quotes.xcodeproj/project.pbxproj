@@ -655,7 +655,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Motivation quotes/Motivation quotesDebug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Motivation quotes/Preview Content\"";
 				DEVELOPMENT_TEAM = 2R9D8RVTAY;
 				ENABLE_PREVIEWS = YES;
@@ -695,7 +695,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Motivation quotes/Motivation quotesRelease.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"Motivation quotes/Preview Content\"";
 				DEVELOPMENT_TEAM = 2R9D8RVTAY;
 				ENABLE_PREVIEWS = YES;

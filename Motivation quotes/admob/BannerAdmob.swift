@@ -16,7 +16,7 @@ final class BannerAdmob: UIViewControllerRepresentable {
         let banner = GADBannerView(adSize: bannerAdmobSize.adGADSize)
         
         let viewController = UIViewController()
-        banner.adUnitID = "ca-app-pub-7604332955528357/8121863874"
+        banner.adUnitID = "HERE GOES AD UNIT ID"
         banner.rootViewController = viewController
         viewController.view.addSubview(banner)
         viewController.view.frame = CGRect(origin: .zero, size: bannerAdmobSize.adGADSize.size)
